@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
 import Subheader from '../../components/Subheader/Primary'
 import Header from '../../components/Header/Header'
-import ProgressBar from '../../components/Progress/ProgressBar'
+import ProgressBar from '../../components/ProgressBar/ProgressBar'
 import Dropdown from '../../components/Dropdown/Dropdown'
 import Modal from '../../components/Modals/Modal'
 
