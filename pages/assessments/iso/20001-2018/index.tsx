@@ -5,10 +5,10 @@ import Link from 'next/link'
 import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
 import Subheader from '../../../../components/Subheader/Iso1'
 import Header from '../../../../components/Header/Header'
-import ProgressBar from '../../../../components/ProgressBar/ProgressBar'
 import IsoVersion from '../../../../components/Dropdown/IsoVersion'
 import IsoMethod from '../../../../components/Dropdown/IsoMethod'
 import Modal from '../../../../components/Modals/Modal'
+import ProgressBar from '../../../../components/ProgressBar/ProgressBar'
 
 type Props = {
   value: number;
