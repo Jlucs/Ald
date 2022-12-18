@@ -5,23 +5,9 @@ import Link from 'next/link'
 import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
 import Subheader from '../../../components/Subheader/Primary'
 import Header from '../../../components/Header/Header'
-import ProgressBar from '../../../components/Progressbar/Progressbar'
 import Dropdown from '../../../components/Dropdown/Dropdown'
 import Modal from '../../../components/Modals/Modal'
 
-type Props = {
-  value: number;
-}
-
-// Import react-circular-progressbar module and styles
-import {
-  CircularProgressbar,
-  CircularProgressbarWithChildren,
-  buildStyles
-} from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
-
-import ProgressProvider from "./../../../ProgressProvider";
 
 const Page: NextPageWithLayout = () => {
     useEffect( () => {
