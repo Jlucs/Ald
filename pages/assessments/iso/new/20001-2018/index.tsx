@@ -8,7 +8,6 @@ import Header from '../../../../../components/Header/Header'
 import ProgressBar from '../../../../../components/ProgressBar/ProgressBar'
 import IsoVersion from '../../../../../components/Dropdown/IsoVersion'
 import IsoMethod from '../../../../../components/Dropdown/IsoMethod'
-import Modal from '../../../../../components/Modals/Modal'
 
 type Props = {
   value: number;
