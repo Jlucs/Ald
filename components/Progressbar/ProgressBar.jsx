@@ -1,7 +1,7 @@
 export default function ProgressBar(props) {
     return (
         <div className="pb-content">
-        {props.children}
+        {props.children}idiot
         </div>
     );
 }
