@@ -597,6 +597,34 @@ input[type="checkbox"] {
     height:100px;
 }
 
+.legend {
+    width:40px;
+    height:12px;
+}
+
+.legend-1 {
+    background:#ebecf2;
+}
+
+.legend-2 {
+    background:#d8dbe5;   
+}
+
+.legend-3 {
+    background:#bbbdcc;
+}
+
+.legend-4 {
+    background:#9b9eb4;
+}
+
+.legend-5 {
+    background:#828699;
+}
+
+.legend-6 {
+    background:#3e98c7;
+}
 
 /*
 |--------------------------------------------------------------------------

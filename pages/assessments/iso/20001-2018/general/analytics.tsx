@@ -185,7 +185,7 @@ const Page: NextPageWithLayout = () => {
               <div className="card-body">
                 <div className="d-flex align-items-center flex-column">
                   <h3 className="text-center">Overall score</h3>
-                  <p className="text-center">Assessment has scored level: 3 - managed</p>
+                  <p className="text-center">Assessment has scored level: 3</p>
                   <div className="pb-wrapper pb-lg pb-success text-center mt-20 mb-20">
                       <ProgressBar label="Stroke width">
                           <ProgressProvider valueStart={0} valueEnd={3}>
@@ -218,43 +218,55 @@ const Page: NextPageWithLayout = () => {
                   </div>
                   <div className="col-7 fs-13 d-flex justify-content-center flex-column">
                     <div className="d-flex align-items-center justify-content-between mb-6">
-                      <div className="d-flex">
-                        <div className="mr-6">c</div>
+                      <div className="d-flex align-items-center">
+                        <div className="mr-6">
+                          <div className="legend legend-1"></div>
+                        </div>
                         <div>Identify I&T services.</div>
                       </div>
                       <div>14</div>
                     </div>
                     <div className="d-flex align-items-center justify-content-between mb-6">
-                      <div className="d-flex">
-                        <div className="mr-6">c</div>
+                      <div className="d-flex align-items-center">
+                        <div className="mr-6">
+                          <div className="legend legend-2"></div>
+                        </div>
                         <div>Catalog I&T-enabled services.</div>
                       </div>
                       <div>11</div>
                     </div>
                     <div className="d-flex align-items-center justify-content-between mb-6">
-                      <div className="d-flex">
-                        <div className="mr-6">c</div>
+                      <div className="d-flex align-items-center">
+                        <div className="mr-6">
+                          <div className="legend legend-3"></div>
+                        </div>
                         <div>Define and prepare service agreements.</div>
                       </div>
                       <div>12</div>
                     </div>
                     <div className="d-flex align-items-center justify-content-between mb-6">
-                      <div className="d-flex">
-                        <div className="mr-6">c</div>
+                      <div className="d-flex align-items-center">
+                        <div className="mr-6">
+                          <div className="legend legend-4"></div>
+                        </div>
                         <div>Monitor and report service levels.</div>
                       </div>
                       <div>14</div>
                     </div>
                     <div className="d-flex align-items-center justify-content-between mb-20">
-                      <div className="d-flex">
-                        <div className="mr-6">c</div>
+                      <div className="d-flex align-items-center">
+                        <div className="mr-6">
+                          <div className="legend legend-5"></div>
+                        </div>
                         <div>Review service agreements and contracts.</div>
                       </div>
                       <div>6</div>
                     </div>
                     <div className="d-flex align-items-center justify-content-between">
-                      <div className="d-flex">
-                        <div className="mr-6">c</div>
+                      <div className="d-flex align-items-center">
+                        <div className="mr-6">
+                          <div className="legend legend-6"></div>
+                        </div>
                         <div>Potential improvement.</div>
                       </div>
                       <div>51</div>
