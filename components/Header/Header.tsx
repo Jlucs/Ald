@@ -73,7 +73,7 @@ export default function Header({children}: Props) {
                   <div className="d-flex align-items-center">
                     <button className="avatar-btn">
                       <div className="avatar">
-                        <span>L</span>
+                        <span>F</span>
                       </div>
                     </button>
                   </div>
