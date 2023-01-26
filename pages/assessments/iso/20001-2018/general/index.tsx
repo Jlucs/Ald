@@ -26,7 +26,7 @@ import {
   BarElement,
   CategoryScale,
 } from 'chart.js';
-import { Radar, Bar, HorizontalBar } from 'react-chartjs-2';
+import { Radar, Bar } from 'react-chartjs-2';
 
 ChartJS.register(
   RadialLinearScale,
