@@ -18,7 +18,7 @@ export default function Header({children}: Props) {
           <div id="begin" className="d-flex">
             <div className="header-breadcrumb">
               <Link href="/dashboard" className="header-logo">
-                <img src="/images/adlogo.svg" alt="aldameiry logo"/>
+                <img src="/images/aldameiry-logo.svg" alt="aldameiry logo"/>
               </Link>
               {children}
             </div>

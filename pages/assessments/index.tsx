@@ -165,7 +165,7 @@ const Page: NextPageWithLayout = () => {
                       </div>
                   </td>
                   <td>
-                      <Link href="/assessments/iso/20001-2018">
+                      <Link href="/assessments/iso/20001-2018/specific">
                           <div className="color-default primary-cell"><span>ISO 20001-2018</span></div>
                       </Link>
                   </td>
@@ -181,7 +181,42 @@ const Page: NextPageWithLayout = () => {
                       </div>
                   </td>
                   <td>
-                      <div className="right-aligned">14d ago</div>
+                      <div className="right-aligned">6d ago</div>
+                  </td>
+                  <td>
+                    <div className="right-aligned">
+                        <svg data-testid="geist-icon" fill="none" height="18" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24" width="18"><circle cx="12" cy="12" r="1" fill="currentColor"></circle><circle cx="12" cy="5" r="1" fill="currentColor"></circle><circle cx="12" cy="19" r="1" fill="currentColor"></circle></svg>
+                    </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <div>
+                          <div className="checkbox-container">
+                              <div className="checkbox-check">
+                                  <input className="checkbox-input " type="checkbox" />
+                              </div>
+                          </div>
+                      </div>
+                  </td>
+                  <td>
+                      <Link href="/assessments/external">
+                          <div className="color-default primary-cell"><span>External assessment</span></div>
+                      </Link>
+                  </td>
+                  <td>
+                      <div>External assessment</div>
+                  </td>
+                  <td>
+                      <div>External import</div>
+                  </td>
+                  <td>
+                      <div>
+                        
+                      </div>
+                  </td>
+                  <td>
+                      <div className="right-aligned">12d ago</div>
                   </td>
                   <td>
                     <div className="right-aligned">

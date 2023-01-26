@@ -1,4 +1,4 @@
-import type { ReactElement} from 'react'
+import type { ReactElement } from 'react'
 import {useState} from 'react'
 import Layout from '../../components/Layouts/Master'
 import type { NextPageWithLayout } from '../_app'
@@ -7,8 +7,6 @@ import { useEffect } from 'react'
 import Subheader from '../../components/Subheader/Primary'
 import Header from '../../components/Header/Header'
 import Dropdown from '../../components/Dropdown/SectorList'
-
-
 
 type Props = {
     value: number;
@@ -22,7 +20,6 @@ const Page: NextPageWithLayout = () => {
             body?.classList.remove("header-enabled", "subheader-enabled");
         }
     });
-
     const FileInputButton: React.FC = () => {
         const [fileSelected, setFileSelected] = useState(false);
       
@@ -64,10 +61,10 @@ const Page: NextPageWithLayout = () => {
                         <div className="row">
                             <div className="col-6">
                                 <Dropdown className="" btnClassName="btn btn-secondary btn-input btn-lg btn-max d-flex align-items-center justify-content-between" menuClassName="dropdown-primary shadow" dropDownButtonLabel="ISO">
-                                    <div>All sectors</div>
+                                    <div>Quality management</div>
                                     <div className="dropdown-btn-icon">
                                         <span className="mr-10">
-                                            <svg className="svg-black" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <svg className="svg-blue" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M11.7 8L7.49998 15.3L4.59999 20.3C3.49999 18.4 3.1 17.7 2.3 16.3C1.9 15.7 1.9 14.9 2.3 14.3L8.8 3L11.7 8Z" fill="currentColor"></path>
                                                 <path opacity="0.3" d="M11.7 8L8.79999 3H13.4C14.1 3 14.8 3.4 15.2 4L20.6 13.3H14.8L11.7 8ZM7.49997 15.2L4.59998 20.2H17.6C18.3 20.2 19 19.8 19.4 19.2C20.2 17.7 20.6 17 21.7 15.2H7.49997Z" fill="currentColor"></path>
                                             </svg>
@@ -246,123 +243,6 @@ const Page: NextPageWithLayout = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-purple" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">EFQM Excellence Model</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-purple" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">DGEP Dubai Government Excellence Program</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-purple" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">GEM Government Excellence Model</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-purple" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">HBMPSG Hamdan bin Mohammed Programme for Smart Government</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-green" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">Digital Maturity assessment</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-green" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">Artificial intelligence readiness Assessment</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-green" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">Enterprise architecture EA readiness</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-green" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">Cloud readiness assessment</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="d-flex align-items-center">
-                                        <div className="mr-10">
-                                            <svg className="svg-green" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path><path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path></svg>
-                                        </div>
-                                        <div className="fs-13">Digital Service improvement</div>
-                                    </div>
-                                    <div>
-                                        <Link href="" className="btn btn-primary btn-sm fs-13"><div>Continue</div></Link>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -371,8 +251,6 @@ const Page: NextPageWithLayout = () => {
                 <div className="card card-primary card-shadow">
                     <div className="card-body">
                         <h2 className="mb-20">Import assessment</h2>
-                        {/* <input type="file" className="add-file"/>
-                        <Link href="" className="btn btn-primary btn-file-upload btn-lg mt-40">Generate report</Link> */}
                         <FileInputButton/>
                     </div>
                 </div>

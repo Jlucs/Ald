@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import Subheader from '../../../../../components/Subheader/Primary'
 import Header from '../../../../../components/Header/Header'
 import IsoMethod from '../../../../../components/Dropdown/IsoMethod'
+import Previous from '../../../../../components/Listbox/Previous'
 import Switch from '../../../../../components/Switch/Switch'
 import Modal from '../../../../../components/Modals/Activities'
 
@@ -87,6 +88,10 @@ const Page: NextPageWithLayout = () => {
                             <div className="label-text mb-6 mt-25">Assessment Method</div>
                         </label>
                         <IsoMethod className="" btnClassName="btn btn-secondary btn-lg btn-max d-flex align-items-center justify-content-between" menuClassName="dropdown-primary shadow" dropDownButtonLabel="Select functional activities to assess"></IsoMethod>
+                        <label>
+                            <div className="label-text mb-6 mt-25">Assessment previous progress</div>
+                        </label>
+                        <Previous className="listbox-droplist" btnClassName="btn btn-secondary btn-lg btn-max d-flex align-items-center justify-content-between" menuClassName="dropdown-primary shadow" dropDownButtonLabel="Select functional activities to assess"></Previous>
                         <div className="activities mt-25">
                             <details>
                                 <summary>

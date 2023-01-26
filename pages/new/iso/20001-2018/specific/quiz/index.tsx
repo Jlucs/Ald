@@ -40,224 +40,256 @@ useEffect( () => {
             </div>
         </Link>
         <h1 className="h1-primary fw-600 mt-10">Assessment questionnaire</h1>
-        <p className="mb-40">ISO - 20001-2018, functional activities selected</p>
+        <p className="mb-40">ISO - 20001-2018, 2 functional activities selected</p>
         <div className="layout-1 extended">
             <div className="primary">
               <div className="card card-table">
                 <div className="card-body">
-                  <div className="d-flex flex-row align-items-center fs-13">
-                    <div className="w-48px mr-10">Level 1:</div>
-                    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-                  </div>
-                  <div className="d-flex flex-row align-items-center fs-13">
-                    <div className="w-48px mr-10">Level 2:</div>
-                    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-                  </div>
-                  <div className="d-flex flex-row align-items-center fs-13">
-                    <div className="w-48px mr-10">Level 3:</div>
-                    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-                  </div>
-                  <div className="d-flex flex-row align-items-center fs-13">
-                    <div className="w-48px mr-10">Level 4:</div>
-                    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-                  </div>
-                  <div className="d-flex flex-row align-items-center fs-13">
-                    <div className="w-48px mr-10">Level 5:</div>
-                    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-                  </div>
-                  <table className="table-quiz mt-40">
-                    <thead>
-                        <tr>
-                            <th><div>Nr.</div></th>
-                            <th><div>Activities</div></th>
-                            <th><div>Level 1</div></th>
-                            <th><div>Level 2</div></th>
-                            <th><div>Level 3</div></th>
-                            <th><div>Level 4</div></th>
-                            <th><div>Level 5</div></th>
-                        </tr>
-                    </thead>
-                    <tbody>
+                    <h3 className="mb-20">Identify I&T services.</h3>
+                    <table className="table-quiz">
+                      <thead>
+                          <tr>
+                              <th>Nr.</th>
+                              <th>Activities</th>
+                              <th>Level 1</th>
+                              <th>Level 2</th>
+                              <th>Level 3</th>
+                              <th>Level 4</th>
+                              <th>Level 5</th>
+                          </tr>
+                      </thead>
+                      <tbody>
                         <tr className="odd">
-                            <td><div>1.</div></td>
-                            <td className="capped"><div>Assess current I&T services and service levels to identify gaps between existing services and the business activities they support. Identify areas for improvement of existing services and service level options.</div></td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
+                          <td className="text-center">1.</td>
+                          <td className="capped"><div>Assess current I&T services and service levels to identify gaps between existing services and the business activities they support. Identify areas for improvement of existing services and service level options.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
                         </tr>
                         <tr>
-                            <td><div>2.</div></td>
-                            <td className="capped"><div>Analyze, study and estimate future demand and confirm capacity of existing I&T-enabled services.</div></td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
+                          <td className="text-center">2.</td>
+                          <td className="capped"><div>Analyze, study and estimate future demand and confirm capacity of existing I&T-enabled services.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
                         </tr>
                         <tr className="odd">
-                            <td><div>3.</div></td>
-                            <td className="capped"><div>Analyze business process activities to identify the need for new or redesigned I&T services.</div></td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
+                          <td className="text-center">3.</td>
+                          <td className="capped"><div>Analyze business process activities to identify the need for new or redesigned I&T services.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
                         </tr>
                         <tr>
-                            <td><div>4.</div></td>
-                            <td className="capped"><div>Compare identified requirements to existing service components in the portfolio. If possible, package existing service components (I&T services, service level options and service packages) into new service packages to meet identified business requirements.</div></td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
+                          <td className="text-center">4.</td>
+                          <td className="capped"><div>Compare identified requirements to existing service components in the portfolio. If possible, package existing service components (I&T services, service level options and service packages) into new service packages to meet identified business requirements.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
                         </tr>
                         <tr className="odd">
-                            <td><div>5.</div></td>
-                            <td className="capped"><div>Regularly review the portfolio of I&T services with portfolio management and business relationship management to identify obsolete services. Agree on retirement and propose change.</div></td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
+                          <td className="text-center">5.</td>
+                          <td className="capped"><div>Regularly review the portfolio of I&T services with portfolio management and business relationship management to identify obsolete services. Agree on retirement and propose change.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
                         </tr>
                         <tr>
-                            <td><div>6.</div></td>
-                            <td className="capped"><div>Where possible, match demands to service packages and create standardized services to obtain overall efficiencies.</div></td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
-                            <td>
-                              <div>
-                                <Checkbox/>
-                              </div>
-                            </td>
+                          <td className="text-center">6.</td>
+                          <td className="capped"><div>Where possible, match demands to service packages and create standardized services to obtain overall efficiencies.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
                         </tr>
-                    </tbody>
-                  </table>
+                      </tbody>
+                    </table>
+                    <h3 className="mb-20 mt-40">Catalog I&T-enabled services.</h3>
+                    <table className="table-quiz">
+                      <thead>
+                          <tr>
+                              <th>Nr.</th>
+                              <th>Activities</th>
+                              <th>Level 1</th>
+                              <th>Level 2</th>
+                              <th>Level 3</th>
+                              <th>Level 4</th>
+                              <th>Level 5</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="odd">
+                          <td className="text-center">1.</td>
+                          <td className="capped">Analyze requirements for new or changed service agreements received from business relationship management to ensure that the requirements can be matched. Consider aspects such as service times, availability, performance, capacity, security, privacy, continuity, compliance and regulatory issues, usability, demand constraints, and data quality.</td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="text-center">2.</td>
+                          <td className="capped"><div>Draft customer service agreements based on the services, service packages and service level options in the relevant service catalogues.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                        </tr>
+                        <tr className="odd">
+                          <td className="text-center">3.</td>
+                          <td className="capped"><div>Finalize customer service agreements with business relationship management.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="text-center">4.</td>
+                          <td className="capped"><div>Determine, agree on and document internal operational agreements to underpin the customer service agreements, if applicable.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                        </tr>
+                        <tr className="odd">
+                          <td className="text-center">5.</td>
+                          <td className="capped"><div>Liaise with supplier management to ensure that appropriate commercial contracts with external service providers underpin the customer service agreements, if applicable.</div></td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                          <td>
+                            <Checkbox/>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                   <div className="d-flex justify-content-between">
                     <div></div>
                     <div className="d-flex flex-end mt-40">
-                      <Link href="/assessments/iso/20001-2018/general" className="btn btn-primary btn-lg fs-13"><div>Complete assessment</div></Link>
+                      <Link href="/assessments/iso/20001-2018/specific" className="btn btn-primary btn-lg fs-13"><div>Complete assessment</div></Link>
                     </div>
                   </div>
                 </div>

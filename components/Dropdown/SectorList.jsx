@@ -46,7 +46,7 @@ export default function Dropdown(props) {
         <Menu.Items className={`dropdown ${props.menuClassName}`}>
             <div className="dropdown-menu">
                 <NextLink
-                    className={["link", router.pathname == "/assessments" ? "current" : ""].join(" ")} href="">
+                    className={["link", router.pathname == "/new" ? "current" : ""].join(" ")} href="/new">
                     All sectors
                     <div className="dropdown-menu-checkmark">
                         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" className="checkmark">
@@ -55,7 +55,7 @@ export default function Dropdown(props) {
                     </div>
                 </NextLink>
                 <NextLink
-                    className={["link", router.pathname == "" ? "current" : ""].join(" ")} href="">
+                    className={["link", router.pathname == "/new/quality-management" ? "current" : ""].join(" ")} href="/new/quality-management">
                     Quality management
                     <div className="dropdown-menu-checkmark">
                         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" className="checkmark">
@@ -64,7 +64,7 @@ export default function Dropdown(props) {
                     </div>
                 </NextLink>
                 <NextLink
-                    className={["link", router.pathname == "" ? "current" : ""].join(" ")} href="">
+                    className={["link", router.pathname == "/new/achieving-org-excellence" ? "current" : ""].join(" ")} href="/new/achieving-org-excellence">
                     Achieving org excellence
                     <div className="dropdown-menu-checkmark">
                         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" className="checkmark">
@@ -73,7 +73,7 @@ export default function Dropdown(props) {
                     </div>
                 </NextLink>
                 <NextLink
-                    className={["link", router.pathname == "" ? "current" : ""].join(" ")} href="">
+                    className={["link", router.pathname == "/new/project-and-portfolio" ? "current" : ""].join(" ")} href="/new/project-and-portfolio">
                     Project & portfolio
                     <div className="dropdown-menu-checkmark">
                         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" className="checkmark">
@@ -82,7 +82,7 @@ export default function Dropdown(props) {
                     </div>
                 </NextLink>
                 <NextLink
-                    className={["link", router.pathname == "" ? "current" : ""].join(" ")} href="">
+                    className={["link", router.pathname == "/new/digital-era" ? "current" : ""].join(" ")} href="/new/digital-era">
                     Digital era
                     <div className="dropdown-menu-checkmark">
                         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" className="checkmark">
