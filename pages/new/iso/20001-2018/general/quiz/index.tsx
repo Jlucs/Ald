@@ -247,7 +247,7 @@ useEffect( () => {
                         </tr>
                         <tr className="odd">
                           <td style={{ width: "60px" }} className="text-center">3.</td>
-                          <td className="capped">Have SMS's  change management policy, information security policy and service continuity plan(s), processes been documented?</td>
+                          <td className="capped">Have SMS&apos;s  change management policy, information security policy and service continuity plan(s), processes been documented?</td>
                           <td className="text-center">
                             <Checkbox/>             
                           </td>
@@ -413,7 +413,7 @@ useEffect( () => {
                         </tr>
                         <tr className="odd">
                           <td style={{ width: "60px" }} className="text-center">3.</td>
-                          <td className="capped">Has top management reviewed the organization's SMS and the services, at planned intervals, to ensure their continuing suitability, adequacy and effectiveness?</td>
+                          <td className="capped">Has top management reviewed the organization&apos;s SMS and the services, at planned intervals, to ensure their continuing suitability, adequacy and effectiveness?</td>
                           <td className="text-center">
                             <Checkbox/>             
                           </td>
