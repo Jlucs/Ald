@@ -142,7 +142,7 @@ const Page: NextPageWithLayout = () => {
                   </td>
                   <td>
                       <div>
-                        5/5
+                        67%
                       </div>
                   </td>
                   <td>
@@ -177,7 +177,7 @@ const Page: NextPageWithLayout = () => {
                   </td>
                   <td>
                       <div>
-                        3.5/5
+                        Level 3
                       </div>
                   </td>
                   <td>
@@ -247,7 +247,7 @@ const Page: NextPageWithLayout = () => {
                   </td>
                   <td>
                       <div>
-                        4.2/5
+                        Level 4
                       </div>
                   </td>
                   <td>
@@ -282,7 +282,7 @@ const Page: NextPageWithLayout = () => {
                   </td>
                   <td>
                       <div>
-                        4.5/5
+                        82%
                       </div>
                   </td>
                   <td>

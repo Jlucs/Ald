@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Subheader from '../../../../../components/Subheader/Iso2'
 import Header from '../../../../../components/Header/Header'
 import IsoVersion from '../../../../../components/Dropdown/IsoVersion'
-import IsoMethod from '../../../../../components/Dropdown/IsoMethod'
+import EmailAdd from '../../../../../components/Dropdown/EmailAdd'
 import Modal from '../../../../../components/Modals/Modal'
 import ProgressBar from '../../../../../components/ProgressBar/ProgressBar'
 import DatePicker from '../../../../../components/Datepicker/DatePicker'
@@ -158,7 +158,7 @@ const Page: NextPageWithLayout = (props) => {
           <div className="grid-cell" style={{flexBasis: "140px"}}>
                 <div className="cell-inner">
                   <div className="cell-title">
-                    
+                    <EmailAdd className="" btnClassName="btn-email-list" menuClassName="dropdown-primary shadow" dropDownButtonLabel="A"></EmailAdd>
                   </div>  
                 </div>
               </div>
@@ -273,7 +273,7 @@ const Page: NextPageWithLayout = (props) => {
               </div>
               <div className="grid-cell" style={{flexBasis: "140px"}}>
                 <div className="cell-inner">
-                  <div className="cell-title">DATE</div>
+                  <div className="cell-title">Deadline</div>
                 </div>
               </div>
               <div className="grid-cell" style={{flexBasis: "140px"}}>
@@ -299,7 +299,7 @@ const Page: NextPageWithLayout = (props) => {
                     </Disclosure.Button>
                     <div className="d-flex w-100">
                       {/* <InputEdit initialValue="Application Consolidation Project" /> */}
-                      <input className="table-input" defaultValue="Application Consolidation Project"/>
+                      <input className="table-input" defaultValue="Formalize and implement release, service-level, capacity and performance management consistently across the entire organization, including partner integration."/>
                     </div>  
                   </div>
                 </div>
@@ -307,7 +307,7 @@ const Page: NextPageWithLayout = (props) => {
               <div className="grid-cell" style={{flexBasis: "140px"}}>
                 <div className="cell-inner">
                   <div className="cell-title">
-                    
+                    <EmailAdd className="" btnClassName="btn-email-list" menuClassName="dropdown-primary shadow" dropDownButtonLabel="A"></EmailAdd>
                   </div>  
                 </div>
               </div>
@@ -406,7 +406,7 @@ const Page: NextPageWithLayout = (props) => {
                     </Disclosure.Button>
                     <div className="d-flex w-100">
                       {/* <InputEdit initialValue="Application Consolidation Project" /> */}
-                      <input className="table-input" defaultValue="Application Consolidation Project"/>
+                      <input className="table-input" defaultValue="Ensure that all the processes implemented are governed using metrics which demonstrate achievement of process objectives. As a minimum: incident, request, problem, change configuration, service level, capacity and performance management processes."/>
                     </div>  
                   </div>
                 </div>
@@ -414,7 +414,7 @@ const Page: NextPageWithLayout = (props) => {
               <div className="grid-cell" style={{flexBasis: "140px"}}>
                 <div className="cell-inner">
                   <div className="cell-title">
-                    
+                    <EmailAdd className="" btnClassName="btn-email-list" menuClassName="dropdown-primary shadow" dropDownButtonLabel="A"></EmailAdd>
                   </div>  
                 </div>
               </div>
@@ -514,124 +514,14 @@ const Page: NextPageWithLayout = (props) => {
                     </Disclosure.Button>
                     <div className="d-flex w-100">
                       {/* <InputEdit initialValue="Application Consolidation Project" /> */}
-                      <input className="table-input" defaultValue="Application Consolidation Project"/>
+                      <input className="table-input" defaultValue="Implement business service management (BSM) processes and tools."/>
                     </div>  
                   </div>
                 </div>
               </div>
               <div className="grid-cell" style={{flexBasis: "140px"}}>
                 <div className="cell-inner">
-                  <div className="cell-title">
-                    
-                  </div>  
-                </div>
-              </div>
-              <div className="grid-cell" style={{flexBasis: "140px"}}>
-                <div className="cell-inner p-0 w-100">
-                    <Status className="d-flex"/>
-                </div>
-              </div>
-              <div className="grid-cell" style={{flexBasis: "140px"}}>
-                <div className="cell-inner p-0 w-100">
-                    <Priority className="d-flex"/>
-                </div>
-              </div>
-              <div className="grid-cell" style={{flexBasis: "140px"}}>
-               <div className="cell-inner p-0 w-100">
-                  <DatePicker/>
-                </div>
-              </div>
-              <div className="grid-cell p-0 w-100" style={{flexBasis: "140px"}}>
-               <div className="cell-inner">
-
-                </div>
-              </div>
-            </div>
-            <Disclosure.Panel className="d-flex align-items-center flex-row h-100 p-relative">
-              <div className="connector">
-                <div className="line-container">
-                  <div className="line"></div>
-                </div>
-              </div>
-              <div className="table-expand">
-                <div className="sub-table">
-                  <div className="sub-table-header">
-                    <div className="table-row">
-                      <div className="connector-table">
-                        <div className="connector-cell">
-                          <div className="connector-line line-void"></div>
-                        </div>
-                      </div>
-                      <div className="grid-cell left-indicator" style={{ backgroundColor: "rgb(87, 155, 252)"}}>
-                        <div className="left-indicator-inner"></div>
-                      </div>
-                      <div className="grid-cell" style={{flex: "1"}}>
-                        <div className="cell-inner">
-                          <div className="d-flex align-items-center justify-content-between w-100 flex-row">
-                            <div className="cell-title">Subtask</div>
-                            <div><button onClick={onAddBtnClick3} className="btn btn-add"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256C432 264.8 424.8 272 416 272h-176V448c0 8.844-7.156 16.01-16 16.01S208 456.8 208 448V272H32c-8.844 0-16-7.15-16-15.99C16 247.2 23.16 240 32 240h176V64c0-8.844 7.156-15.99 16-15.99S240 55.16 240 64v176H416C424.8 240 432 247.2 432 256z"/></svg></button></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="grid-cell" style={{flexBasis: "140px"}}>
-                        <div className="cell-inner">
-                          <div className="cell-title">Owner</div>
-                        </div>
-                      </div>
-                      <div className="grid-cell" style={{flexBasis: "140px"}}>
-                        <div className="cell-inner">
-                          <div className="cell-title">STATUS</div>
-                        </div>
-                      </div>
-                      <div className="grid-cell" style={{flexBasis: "140px"}}>
-                        <div className="cell-inner">
-                          <div className="cell-title">Priority</div>
-                        </div>
-                      </div>
-                      <div className="grid-cell" style={{flexBasis: "140px"}}>
-                        <div className="cell-inner">
-                          <div className="cell-title">Date</div>
-                        </div>
-                      </div>
-                      <div className="grid-cell" style={{flexBasis: "140px"}}>
-                        <div className="cell-inner">
-                          <div className="cell-title">Files</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="sub-table-body">
-                    {inputList3}
-                  </div>
-                </div>
-              </div>
-            </Disclosure.Panel>
-          </Disclosure>
-          <Disclosure>
-            <div className="table-row">
-              <div className="grid-cell left-indicator" style={{ backgroundColor: "rgb(87, 155, 252)"}}>
-                <div className="left-indicator-inner"></div>
-              </div>
-              <div className="grid-cell" style={{flex: "1"}}>
-                <div className="cell-inner">
-                  <div className="d-flex flex-row align-items-center">
-                    <Disclosure.Button className="collapse-btn" as="div">
-                      <div>
-                        <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" role="button"  aria-hidden="false" className="icon_component icon_component--clickable"><path d="M12.5303 9.46967L12 10L12.5303 10.5303C12.8232 10.2374 12.8232 9.76256 12.5303 9.46967ZM10.9393 10L7.46967 13.4697C7.17678 13.7626 7.17678 14.2374 7.46967 14.5303C7.76256 14.8232 8.23744 14.8232 8.53033 14.5303L12.5303 10.5303L12 10L12.5303 9.46967L8.53033 5.46967C8.23744 5.17678 7.76256 5.17678 7.46967 5.46967C7.17678 5.76256 7.17678 6.23744 7.46967 6.53033L10.9393 10Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                      </div>
-                    </Disclosure.Button>
-                    <div className="d-flex w-100">
-                      {/* <InputEdit initialValue="Application Consolidation Project" /> */}
-                      <input className="table-input" defaultValue="Application Consolidation Project"/>
-                    </div>  
-                  </div>
-                </div>
-              </div>
-              <div className="grid-cell" style={{flexBasis: "140px"}}>
-                <div className="cell-inner">
-                  <div className="cell-title">
-                    
-                  </div>  
+                  <EmailAdd className="" btnClassName="btn-email-list" menuClassName="dropdown-primary shadow" dropDownButtonLabel="A"></EmailAdd>
                 </div>
               </div>
               <div className="grid-cell" style={{flexBasis: "140px"}}>

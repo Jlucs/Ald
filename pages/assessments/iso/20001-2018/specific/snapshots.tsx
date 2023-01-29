@@ -119,7 +119,7 @@ const Page: NextPageWithLayout = () => {
                   <div className="left-aligned"><Link href="" className="color-default">ISO 20001-2018-6zh89dcqz (Current)</Link></div>
               </td>
               <td className="p-0 td-size-4">
-                <div className="bg-success fc-white">Level 5</div>
+                <div className="">Level 5</div>
               </td>
               <td>
                 <div>
@@ -146,7 +146,7 @@ const Page: NextPageWithLayout = () => {
                   <div className="left-aligned"><Link href="" className="color-default">ISO 20001-2018-o2dayka6i</Link></div>
               </td>
               <td className="p-0 td-size-4">
-                <div className="bg-success fc-white">Level 4</div>
+                <div className="">Level 4</div>
               </td>
               <td>
                 <div>
@@ -173,7 +173,7 @@ const Page: NextPageWithLayout = () => {
                   <div className="left-aligned"><Link href="" className="color-default">ISO 20001-2018-dgqal74dj</Link></div>
               </td>
               <td className="p-0 td-size-4">
-                <div className="bg-success fc-white">Level 3</div>
+                <div className="">Level 3</div>
               </td>
               <td>
                 <div>
@@ -200,7 +200,7 @@ const Page: NextPageWithLayout = () => {
                   <div className="left-aligned"><Link href="" className="color-default">ISO 20001-2018-bx6ae8hzd</Link></div>
               </td>
               <td className="p-0 td-size-4">
-                <div className="bg-success fc-white">Level 2</div>
+                <div className="">Level 2</div>
               </td>
               <td>
                 <div>
@@ -227,7 +227,7 @@ const Page: NextPageWithLayout = () => {
                   <div className="left-aligned"><Link href="" className="color-default">ISO 20001-2018-mo29gwmte</Link></div>
               </td>
               <td className="p-0 td-size-4">
-                <div className="bg-success fc-white">Level 1</div>
+                <div className="">Level 1</div>
               </td>
               <td>
                 <div>

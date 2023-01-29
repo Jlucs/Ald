@@ -64,7 +64,30 @@ const Page: NextPageWithLayout = () => {
         </div>
       </div>
       <div className="container container-fluid container-1280 mt-40">
-        
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="card card-primary shadow">
+              <div className="card-body">
+                <div className="d-flex justify-content-between">
+                  <div><h4>RCA Template</h4></div>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="mt-20"><Link href="" className="btn btn-sm btn-primary"><div>Download</div></Link></div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="card card-primary shadow">
+              <div className="card-body">
+                <div className="d-flex justify-content-between">
+                  <div><h4>SLA Process document</h4></div>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="mt-20"><Link href="" className="btn btn-sm btn-primary"><div>Download</div></Link></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )

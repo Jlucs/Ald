@@ -9,6 +9,8 @@ import IsoVersion from '../../../../../components/Dropdown/IsoVersion'
 import IsoMethod from '../../../../../components/Dropdown/IsoMethod'
 import Modal from '../../../../../components/Modals/Modal'
 import ProgressBar from '../../../../../components/ProgressBar/ProgressBar'
+import Checkbox from '../../../../../components/Checkbox/Checkbox'
+
 
 type Props = {
   value: number;
@@ -145,17 +147,17 @@ export const barData2 = {
 };
 
 export const barData3 = {
-  labels: ['Content of organization', 'Leadership', 'Planning', 'Support', 'Operation', 'Performance evaluation', 'Improvement'],
-  datasets: [
-    {
-      data: [3, 1, 2, 1, 100, 8, 4],
-      backgroundColor: '#60a5fa',
-    },
-    {
-      data: [4, 4, 3, 7, 115, 8, 4],
-      backgroundColor: 'rgba(75, 192, 192, 0.2)',
-    },
-  ],
+    labels: ['Content of organization', 'Leadership', 'Planning', 'Support', 'Operation', 'Performance evaluation', 'Improvement'],
+    datasets: [
+      {
+        data: [3, 1, 2, 1, 100, 8, 4],
+        backgroundColor: '#60a5fa',
+      },
+      {
+        data: [4, 4, 3, 7, 115, 8, 4],
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+      },
+    ],
 };
 
 // Import react-circular-progressbar module and styles
@@ -354,7 +356,7 @@ const Page: NextPageWithLayout = () => {
                     <tr>
                       <td>
                         <div className="cell-left">
-                          performance evaluation 
+                          Performance evaluation 
                         </div>
                       </td>
                       <td>
@@ -429,7 +431,7 @@ const Page: NextPageWithLayout = () => {
         </div>
         <div className="row">
           <div className="col-lg-12">
-            <div className="card card-primary shadow mt-20">
+            <div className="card card-primary shadow mt-20 mb-20">
               <div className="card-header header-compact">
                 <div className="header-title">Percentage conformity to the standard summary level</div>
               </div>
@@ -439,6 +441,160 @@ const Page: NextPageWithLayout = () => {
             </div>
           </div>
         </div>
+        <div className="row">
+            <div className="col-lg-6">
+                <div className="card card-primary shadow card-stretch gutter-b card-warning ">
+                    <div className="card-header header-compact">
+                        <div className="header-title">Gaps</div>
+                    </div>
+                    <div className="card-body">
+                        <div className="list-1">
+                            <div className="list-item">
+                                <div className="item-text">
+                                    Continuous Trend Analysis
+                                </div>
+                            </div>
+                            <div className="list-item">
+                                <div className="item-text">
+                                    Repeated incidents are not identified
+                                </div>
+                            </div>
+                            <div className="list-item">
+                                <div className="item-text">
+                                    Knowledge articles
+                                </div>
+                            </div>
+                            <div className="list-item">
+                                <div className="item-text">
+                                    Service Improvement Initiatives
+                                </div>
+                            </div>
+                            <div className="list-item">
+                                <div className="item-text">
+                                    Reports are generated manually (Meaningful  dashboard for management)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-6">
+                <div className="card card-primary shadow card-stretch gutter-b ">
+                    <div className="card-header header-compact">
+                        <div className="header-title">Steps for future state: level 4</div>
+                    </div>
+                    <div className="card-body">
+                        <div className="list-1">
+                            <div className="list-item">
+                                <div className="item-text">
+                                    Focus service-level monitoring on areas where there is risk of business process failure.
+                                </div>
+                            </div>
+                            <div className="list-item">
+                                <div className="item-text">
+                                    Repeated incidents are not identified
+                                </div>
+                            </div>
+                            <div className="list-item">
+                                <div className="item-text">
+                                    Predictive trend analysis to be included on the SLA Review Meeting 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-12">
+                <div className="card card-primary shadow mb-20">
+                    <div className="card-header header-compact">
+                        <div className="header-title">Recommended activities</div>
+                        <p className="text-wrapper mt-4 mb-0">Select activities to include in the execution plan.</p>
+                    </div>
+                    <div className="card-body">
+                        <table className="table table-data">
+                          <thead>
+                            <tr>
+                              <th>
+                                <div>
+                                
+                                </div>
+                              </th>
+                              <th>
+                                <div className="cell-left">Activity</div>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div>
+                                  <Checkbox/>
+                                </div>
+                              </td>
+                              <td>
+                                <div className="cell-left">
+                                  Formalize and implement release, service-level, capacity and performance management consistently across the entire organization, including partner integration.
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div>
+                                  <Checkbox/>
+                                </div>
+                              </td>
+                              <td>
+                                <div className="cell-left">
+                                  Ensure that all the processes implemented are governed using metrics which demonstrate achievement of process objectives. As a minimum: incident, request, problem, change configuration, service level, capacity and performance management processes.</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div>
+                                  <Checkbox/>
+                                </div>
+                              </td>
+                              <td>
+                                <div className="cell-left">
+                                  Implement business service management (BSM) processes and tools.
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col-lg-12">
+                <div className="card card-primary shadow">
+                    <div className="card-header header-compact">
+                        <div className="header-title">Recommended measurement</div>
+                    </div>
+                    <div className="card-body">
+                        <div className="d-flex flex-row"><div className="w-40 mr-10"><p>(S)</p></div><div><p>Percentage of stakeholders subject to documented service level management policy including scope, purpose, controls and exception management</p></div></div>
+                        <div className="d-flex flex-row"><div className="w-40 mr-10"><p>(S)</p></div><div><p>Percentage of stakeholders subject to documented service level management process including objectives, process workflow, inputs, outputs, roles and responsibilities, metrics and partner integration</p></div> </div>
+                        <div className="d-flex flex-row"><div className="w-40 mr-10"><p>(P)</p></div><div><p>Percentage of IT services with agreed SLAs</p></div></div>
+                        <div className="d-flex flex-row"><div className="w-40 mr-10"><p>(P)</p></div><div><p>Percentage of IT services with agreed OLAs</p></div></div>
+                        <div className="d-flex flex-row"><div className="w-40 mr-10"><p>(P)</p></div><div><p>Benefits and costs of corrective performance actions in progress and implemented for service level management.</p></div> </div>
+                        <div className="d-flex flex-row"><div className="w-40 mr-10"><p>(S)</p></div><div><p>Monthly reports for service level management highlighting improvements and targets missed leading to a corrective action plan</p></div> </div>
+                        <div className="d-flex flex-row"><div className="w-40 mr-10"><p>(S)</p></div><div><p>Percentage of planned corrective action plans implemented for service level management</p></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="d-flex align-items-center justify-content-between mt-40">
+          <div></div>
+          <div>
+            <Link href="/assessments/iso/20001-2018/general/report" className="btn btn-primary btn-lg fs-13">Save & Submit</Link>
+          </div>
+        </div>
+
       </div>
     </>
   )

@@ -21,6 +21,12 @@ export default function Iso1({ children, className }: Props) {
                 <div className="menu-arrow"></div>
               </div>
             </Link>
+            <Link href="/assessments/iso/20001-2018/general/report" className={["menu-item", '', router.pathname == "/assessments/iso/20001-2018/general/report" ? "active" : ""].join(" ")}>
+              <div className="menu-link">
+                <div className="menu-title">Report view</div>
+                <div className="menu-arrow"></div>
+              </div>
+            </Link>
             <Link href="/assessments/iso/20001-2018/general/analytics" className={["menu-item", '', router.pathname == "/assessments/iso/20001-2018/general/analytics" ? "active" : ""].join(" ")}>
               <div className="menu-link">
                 <div className="menu-title">Analytics</div>

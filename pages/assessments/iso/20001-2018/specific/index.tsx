@@ -9,6 +9,8 @@ import IsoVersion from '../../../../../components/Dropdown/IsoVersion'
 import IsoMethod from '../../../../../components/Dropdown/IsoMethod'
 import Modal from '../../../../../components/Modals/Modal'
 import ProgressBar from '../../../../../components/ProgressBar/ProgressBar'
+import Checkbox from '../../../../../components/Checkbox/Checkbox'
+
 
 type Props = {
   value: number;
@@ -53,10 +55,15 @@ const Page: NextPageWithLayout = () => {
         </div>
       </Header>
       <Subheader/>  
-      <div className="heading heading-lg bg-gradient-purple">
+      <div className="heading heading-lg">
         <div className="container container-fluid container-1280 d-flex align-items-center justify-content-between">
             <div>
-                <h1>Assessment: ISO 20001-2018</h1>
+              <h1>ISO 20001-2018 </h1>
+              <div className="d-flex align-items-center flex-row">
+                <div><p className="text-wrapper">Specific functional activities Assessment</p></div>
+                <div className="text-wrapper mr-8 ml-8">·</div>
+                <div className="text-wrapper fc-link fw-500">Level 3: Established process</div>
+              </div>
             </div>
             <div>
               
@@ -300,22 +307,65 @@ const Page: NextPageWithLayout = () => {
         </div>
         <div className="row">
             <div className="col-12">
-                <div className="card card-primary shadow mb-20">
+            <div className="card card-primary shadow mb-20">
                     <div className="card-header header-compact">
                         <div className="header-title">Recommended activities</div>
+                        <p className="text-wrapper mt-4 mb-0">Select activities to include in the execution plan.</p>
                     </div>
                     <div className="card-body">
-                        <p>
-                            Formalize and implement release, service-level, capacity and performance management consistently across the entire organization, including partner integration.
-                        </p>
-                        <p>
-                            Ensure that all the processes implemented are governed using  metrics which demonstrate achievement of process objectives.  As a minimum: incident, request, problem, change configuration, service level, capacity and performance management processes.
-                        </p>
-                        <p>
-                            Implement business service management (BSM) processes and tools.
-                        </p>
+                        <table className="table table-data">
+                          <thead>
+                            <tr>
+                              <th>
+                                <div>
+                                
+                                </div>
+                              </th>
+                              <th>
+                                <div className="cell-left">Activity</div>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div>
+                                  <Checkbox/>
+                                </div>
+                              </td>
+                              <td>
+                                <div className="cell-left">
+                                  Formalize and implement release, service-level, capacity and performance management consistently across the entire organization, including partner integration.
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div>
+                                  <Checkbox/>
+                                </div>
+                              </td>
+                              <td>
+                                <div className="cell-left">
+                                  Ensure that all the processes implemented are governed using metrics which demonstrate achievement of process objectives. As a minimum: incident, request, problem, change configuration, service level, capacity and performance management processes.</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div>
+                                  <Checkbox/>
+                                </div>
+                              </td>
+                              <td>
+                                <div className="cell-left">
+                                  Implement business service management (BSM) processes and tools.
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                     </div>
-                </div>  
+                </div>   
             </div>
         </div>
 
@@ -355,6 +405,13 @@ const Page: NextPageWithLayout = () => {
                 <div className="flex-auto col-5 mr-16">asd</div>
             </div>
         </div> */}  
+
+        <div className="d-flex align-items-center justify-content-between mt-40">
+          <div></div>
+          <div>
+            <Link href="/assessments/iso/20001-2018/specific/report" className="btn btn-primary btn-lg fs-13">Save & Submit</Link>
+          </div>
+        </div>
 
       </div>
     </>

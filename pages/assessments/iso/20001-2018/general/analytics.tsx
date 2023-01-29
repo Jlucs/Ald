@@ -56,8 +56,7 @@ export const barOptions = {
   scales: {
     y: {
         beginAtZero: true,
-          min: 0,
-          max: 5,
+          
         }
     },
   plugins: {
@@ -76,53 +75,111 @@ export const barOptions = {
 
 
 export const barData1 = {
-  labels: ["data point 1", "data point 2", "data point 3", "data point 4", "data point 5", "data point 6"],
+  labels: ["Requirement", "Requirement met"],
   datasets: [
     {
-      data: [1, 4, 3, 2, 1, 3],
+      data: [4, 3],
       backgroundColor: '#60a5fa',
     },
   ],
 };
 
 export const barData2 = {
-  labels: ["data point 1", "data point 2", "data point 3"],
+  labels: ["Requirement", "Requirement met"],
   datasets: [
     {
-      data: [3, 3, 2],
+      data: [4, 1],
       backgroundColor: '#60a5fa',
     },
   ],
 };
 
 export const barData3 = {
-  labels: ["data point 1", "data point 2", "data point 3", "data point 4", "data point 5"],
+  labels: ["Requirement", "Requirement met"],
   datasets: [
     {
-      data: [3, 3, 3, 3, 3, 3],
+      data: [3, 2],
       backgroundColor: '#60a5fa',
     },
   ],
 };
 
 export const barData4 = {
-  labels: ["data point 1", "data point 2", "data point 3", "data point 4", "data point 5"],
+  labels: ["Requirement", "Requirement met"],
   datasets: [
     {
-      data: [3, 3, 2, 3, 3],
+      data: [7, 1],
       backgroundColor: '#60a5fa',
     },
   ],
 };
 
 export const barData5 = {
-  labels: ["data point 1", "data point 2"],
+  labels: ["Requirement", "Requirement met"],
   datasets: [
     {
-      data: [3,3],
+      data: [115, 100],
       backgroundColor: '#60a5fa',
     },
   ],
+};
+
+export const barData6 = {
+  labels: ["Requirement", "Requirement met"],
+  datasets: [
+    {
+      data: [8, 8],
+      backgroundColor: '#60a5fa',
+    },
+  ],
+};
+
+export const barData7 = {
+  labels: ["Requirement", "Requirement met"],
+  datasets: [
+    {
+      data: [4,4],
+      backgroundColor: '#60a5fa',
+    },
+  ],
+};
+
+export const barData8 = {
+  labels: ['Content of organization', 'Leadership', 'Planning', 'Support', 'Operation', 'Performance evaluation', 'Improvement'],
+  datasets: [
+    {
+      data: [3, 1, 2, 1, 100, 8, 4],
+      backgroundColor: '#60a5fa',
+    },
+    {
+      data: [4, 4, 3, 7, 115, 8, 4],
+      backgroundColor: 'rgba(75, 192, 192, 0.2)',
+    },
+  ],
+};
+
+export const barOptions8 = {
+  indexAxis: 'y' as const,
+  responsive: true,
+  scales: {
+    y: {
+        beginAtZero: true,
+          min: 0,
+          max: 100,
+        }
+    },
+  plugins: {
+    // legend: {
+    //   position: 'top' as const,
+    // },
+    legend: {
+      display: false,
+    },
+    title: {
+      display: true,
+      text: 'Chart.js Bar Chart',
+    },
+  },
 };
 
 type Props = {
@@ -179,7 +236,290 @@ const Page: NextPageWithLayout = () => {
         </div>
       </div>
       <div className="container container-fluid container-1280 mt-40">
-        
+        <div className="row">
+          <div className="col-7">
+            <div className="card card-primary mb-20 shadow gutter-b card-stretch">
+              <div className="card-header">
+                <div className="header-title">General  Compliance Assessment breakdown </div>
+                <p className="text-wrapper mt-4 mb-0">Areas that are included in the assessment.</p>
+              </div>
+              <div className="card-body">
+                <table className="table table-data">
+                  <thead>
+                    <tr>
+                      <th>
+                        <div className="cell-left">Area of standard</div>
+                      </th>
+                      <th>
+                        <div className="cell-center">Req.</div>
+                      </th>
+                      <th>
+                        <div className="cell-center">Req. met</div>
+                      </th>
+                      <th>
+                        <div className="cell-center">
+                          Conformity %
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div className="cell-left">
+                          Content of Organization
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                         4
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          3
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          75%
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="cell-left">
+                          Leadership
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                         4
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          1
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          25%
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="cell-left">
+                          Planning 
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          3
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          2
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          67%
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="cell-left">
+                          Support of Service Management System 
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          7
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          1
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          14%
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="cell-left">
+                          Operation of Service Management System
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          115
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          100
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          87%
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="cell-left">
+                          Performance evaluation 
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          8
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          8
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          100%
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div className="cell-left">
+                          Improvement
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                         4
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          4
+                        </div>
+                      </td>
+                      <td>
+                        <div className="cell-center">
+                          100%
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div className="col-5">
+            <div className="card card-primary shadow card-stretch gutter-b">
+              <div className="card-header header-compact">
+                <div className="header-title">Level of conformity to the standard summary level</div>
+              </div>
+              <div className="card-body d-flex flex-column">
+                <div className="">
+                  <Bar options={barOptions8} data={barData8} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div className="card card-primary shadow mb-20">
+            <div className="card-header header-compact">
+              <div className="header-title">Content of Organization</div>
+            </div>
+              <div className="card-body">
+                <Bar options={barOptions} data={barData1} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div className="card card-primary shadow mb-20">
+            <div className="card-header header-compact">
+              <div className="header-title">Leadership</div>
+            </div>
+              <div className="card-body">
+                <Bar options={barOptions} data={barData2} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div className="card card-primary shadow mb-20">
+            <div className="card-header header-compact">
+              <div className="header-title">Planning</div>
+            </div>
+              <div className="card-body">
+                <Bar options={barOptions} data={barData3} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div className="card card-primary shadow mb-20">
+            <div className="card-header header-compact">
+              <div className="header-title">Support of Service Management System</div>
+            </div>
+              <div className="card-body">
+                <Bar options={barOptions} data={barData4} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div className="card card-primary shadow mb-20">
+            <div className="card-header header-compact">
+              <div className="header-title">Operation of Service Management System</div>
+            </div>
+              <div className="card-body">
+                <Bar options={barOptions} data={barData5} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div className="card card-primary shadow mb-20">
+            <div className="card-header header-compact">
+              <div className="header-title">Performance evaluation</div>
+            </div>
+              <div className="card-body">
+                <Bar options={barOptions} data={barData6} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div className="card card-primary shadow mb-20">
+            <div className="card-header header-compact">
+              <div className="header-title">Improvement</div>
+            </div>
+              <div className="card-body">
+                <Bar options={barOptions} data={barData7} />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )
