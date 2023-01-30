@@ -1719,6 +1719,22 @@ header .header-breadcrumb .breadcrumb-account-name {
     color: #000;
 }
 
+.subheader .subheader-menu .menu-item.item-accent {
+    background: #24292e;
+    padding-left:24px;
+    padding-right:24px;
+    margin-left:12px;
+}
+
+.subheader .subheader-menu .menu-item.item-accent:hover {
+    background:rgba(0, 0, 0);
+}
+
+.subheader .subheader-menu .menu-item.item-accent .menu-link {
+    color:#fff; 
+}
+
+
 /*
 |--------------------------------------------------------------------------
 | Heading Component
