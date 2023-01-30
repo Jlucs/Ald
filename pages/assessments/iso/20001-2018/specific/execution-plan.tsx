@@ -328,7 +328,7 @@ const Page: NextPageWithLayout = (props) => {
               </div>
               <div className="grid-cell p-0 w-100" style={{flexBasis: "140px"}}>
                <div className="cell-inner">
-
+                  
                 </div>
               </div>
             </div>
