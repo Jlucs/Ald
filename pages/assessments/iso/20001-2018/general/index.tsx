@@ -547,7 +547,7 @@ const Page: NextPageWithLayout = () => {
                               </td>
                               <td>
                                 <div className="cell-left">
-                                  Ensure that all the processes implemented are governed using metrics which demonstrate achievement of process objectives. As a minimum: incident, request, problem, change configuration, service level, capacity and performance management processes.</div>
+                                Address risks and opportunities</div>
                               </td>
                             </tr>
                             <tr>
@@ -558,7 +558,7 @@ const Page: NextPageWithLayout = () => {
                               </td>
                               <td>
                                 <div className="cell-left">
-                                  Implement business service management (BSM) processes and tools.
+                                  Nonconformity and corrective action
                                 </div>
                               </td>
                             </tr>

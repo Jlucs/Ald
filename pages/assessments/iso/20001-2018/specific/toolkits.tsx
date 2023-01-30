@@ -72,7 +72,7 @@ const Page: NextPageWithLayout = () => {
                   <div><h4>RCA Template</h4></div>
                 </div>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <div className="mt-20"><Link href="" className="btn btn-sm btn-primary"><div>Download</div></Link></div>
+                <div className="mt-20"><a href="/images/file1.docx" className="btn btn-sm btn-primary"><div>Download</div></a></div>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Page: NextPageWithLayout = () => {
                   <div><h4>SLA Process document</h4></div>
                 </div>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <div className="mt-20"><Link href="" className="btn btn-sm btn-primary"><div>Download</div></Link></div>
+                <div className="mt-20"><Link href="/images/file2.docx" className="btn btn-sm btn-primary"><div>Download</div></Link></div>
               </div>
             </div>
           </div>
