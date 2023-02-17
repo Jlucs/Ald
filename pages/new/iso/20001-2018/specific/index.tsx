@@ -7,6 +7,7 @@ import Subheader from '../../../../../components/Subheader/Primary'
 import Header from '../../../../../components/Header/Header'
 import IsoMethod from '../../../../../components/Dropdown/IsoMethod'
 import Previous from '../../../../../components/Listbox/Previous'
+import AiDropDown from '../../../../../components/Listbox/Ai'
 import Switch from '../../../../../components/Switch/Switch'
 import Modal from '../../../../../components/Modals/Activities'
 
@@ -87,7 +88,7 @@ const Page: NextPageWithLayout = () => {
                         <label>
                             <div className="label-text mb-6 mt-25">Assessment Method</div>
                         </label>
-                        <IsoMethod className="" btnClassName="btn btn-secondary btn-lg btn-max d-flex align-items-center justify-content-between" menuClassName="dropdown-primary shadow" dropDownButtonLabel="Select functional activities to assess"></IsoMethod>
+                        <IsoMethod className="" btnClassName="btn btn-secondary btn-lg btn-max d-flex align-items-center justify-content-between" menuClassName="dropdown-primary shadow" dropDownButtonLabel="Capabilities improvement assessment"></IsoMethod>
                         <label>
                             <div className="label-text mb-6 mt-25">Assessment previous progress</div>
                         </label>
@@ -96,64 +97,28 @@ const Page: NextPageWithLayout = () => {
                             <details>
                                 <summary>
                                     <div className="mr-10"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg></div>
-                                    <div className="activity-title">Develop BCM Program Framework</div>
+                                    <div className="activity-title">Relationship & agreements</div>
                                 </summary>
                                 <div className="activity-content">
                                     <div className="switch-list">
                                         <div className="list-item">
-                                            <div>Develop BCM Program Policy</div>
+                                            <div>Service level management</div>
                                         <div>
                                             <Switch/>
                                         </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Develop BCM Program Scope</div>
+                                            <div>Business relationship management</div>
                                         <div>
                                             <Switch/>
                                         </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Establish Program Governance and Management Structure</div>
+                                            <div>Supplier management</div>
                                         <div>
                                             <Switch/>
                                         </div>
                                         </div>
-                                        <div className="list-item">
-                                            <div>Establish BCM Program Practices</div>
-                                        <div>
-                                            <Switch/>
-                                        </div>
-                                    </div>
-                                 </div>
-                                </div>
-                            </details>
-                        </div>
-                        <div className="activities mt-8">
-                            <details>
-                                <summary>
-                                    <div className="mr-10"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg></div>
-                                    <div className="activity-title">Manage Impacts & Risks</div>
-                                </summary>
-                                <div className="activity-content">
-                                    <div className="switch-list">
-                                        <div className="list-item">
-                                            <div>Analyze Business Impacts</div>
-                                            <div>
-                                                <Switch/>
-                                            </div>
-                                        </div>
-                                        <div className="list-item">
-                                            <div>Analyze Risks</div>
-                                            <div>
-                                                <Switch/>
-                                            </div>
-                                        </div>
-                                        <div className="list-item">
-                                            <div>Develop Risk Treatment</div>
-                                            <div>
-                                                <Switch/>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </details>
@@ -162,24 +127,24 @@ const Page: NextPageWithLayout = () => {
                             <details>
                                 <summary>
                                     <div className="mr-10"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg></div>
-                                    <div className="activity-title">Develop BCM Response</div>
+                                    <div className="activity-title">Service Design, build & transition</div>
                                 </summary>
                                 <div className="activity-content">
                                     <div className="switch-list">
                                         <div className="list-item">
-                                            <div>Develop BCM Response </div>
+                                            <div>Change management</div>
                                             <div>
                                                 <Switch/>
                                             </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Develop Recovery Strategies</div>
+                                            <div>Design and transition of new or changed</div>
                                             <div>
                                                 <Switch/>
                                             </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Develop Recovery Procedures and Plans</div>
+                                            <div>Release and deployment management</div>
                                             <div>
                                                 <Switch/>
                                             </div>
@@ -192,24 +157,18 @@ const Page: NextPageWithLayout = () => {
                             <details>
                                 <summary>
                                     <div className="mr-10"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg></div>
-                                    <div className="activity-title">Validate BCM Plans</div>
+                                    <div className="activity-title">Resolution & fulfillment</div>
                                 </summary>
                                 <div className="activity-content">
                                     <div className="switch-list">
                                         <div className="list-item">
-                                            <div>Train Staff and Recovery Teams</div>
+                                            <div>Problem management</div>
                                             <div>
                                                 <Switch/>
                                             </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Exercise BCM Plans</div>
-                                            <div>
-                                                <Switch/>
-                                            </div>
-                                        </div>
-                                        <div className="list-item">
-                                            <div>Capture BCM Improvement Opportunities</div>
+                                            <div>Incident and service request management</div>
                                             <div>
                                                 <Switch/>
                                             </div>
@@ -222,24 +181,30 @@ const Page: NextPageWithLayout = () => {
                             <details>
                                 <summary>
                                     <div className="mr-10"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg></div>
-                                    <div className="activity-title">Maintain the BCM Program</div>
+                                    <div className="activity-title">Service portfolio</div>
                                 </summary>
                                 <div className="activity-content">
                                     <div className="switch-list">
                                         <div className="list-item">
-                                        <div>Assess the BCM Program Against Current Business Practices</div>
+                                            <div>Configuration management</div>
                                             <div>
                                                 <Switch/>
                                             </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Ensure BCM Comparison Against Recognized Benchmarks</div>
+                                            <div>Service management system (SMS)</div>
                                             <div>
                                                 <Switch/>
                                             </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Implement Corrective Actions and Continual Improvement</div>
+                                            <div>Asset management</div>
+                                            <div>
+                                                <Switch/>
+                                            </div>
+                                        </div>
+                                        <div className="list-item">
+                                            <div>Service catalog management</div>
                                             <div>
                                                 <Switch/>
                                             </div>
@@ -252,41 +217,79 @@ const Page: NextPageWithLayout = () => {
                             <details>
                                 <summary>
                                     <div className="mr-10"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg></div>
-                                    <div className="activity-title">Integrate Disaster Recovery</div>
+                                    <div className="activity-title">Supply & demand</div>
                                 </summary>
                                 <div className="activity-content">
                                     <div className="switch-list">
                                         <div className="list-item">
-                                            <div>Operate IT DR Management Program</div>
+                                        <div>Budgeting and accounting for services</div>
                                             <div>
                                                 <Switch/>
                                             </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Build IT DR Plans and Runbooks</div>
+                                            <div>Capacity management</div>
                                             <div>
                                                 <Switch/>
                                             </div>
                                         </div>
                                         <div className="list-item">
-                                            <div>Develop a Robust Testing Protocol</div>
-                                            <div>
-                                                <Switch/>
-                                            </div>
-                                        </div>
-                                        <div className="list-item">
-                                            <div>Develop IT DR Runbooks Update PRocess</div>
-                                            <div>
-                                                <Switch/>
-                                            </div>
-                                        </div>
-                                        <div className="list-item">
-                                            <div>Align Business Priorities With IT DR Capabilities</div>
+                                            <div>Demand management</div>
                                             <div>
                                                 <Switch/>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </details>
+                        </div>
+                        <div className="activities mt-8">
+                            <details>
+                                <summary>
+                                    <div className="mr-10"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg></div>
+                                    <div className="activity-title">Service assurance</div>
+                                </summary>
+                                <div className="activity-content">
+                                    <div className="switch-list">
+                                        <div className="list-item">
+                                            <div>Service reporting</div>
+                                            <div>
+                                                <Switch/>
+                                            </div>
+                                        </div>
+                                        <div className="list-item">
+                                            <div>Service continuity and availability management</div>
+                                            <div>
+                                                <Switch/>
+                                            </div>
+                                        </div>
+                                        <div className="list-item">
+                                            <div>Information security management</div>
+                                            <div>
+                                                <Switch/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
+                        <div className="activities mt-40">
+                            <details>
+                                <summary className="d-flex justify-content-between">
+                                    <div className="d-flex">
+                                        <div className="mr-10 d-flex align-items-center"><svg className="" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M2.10001 10C3.00001 5.6 6.69998 2.3 11.2 2L8.79999 4.39999L11.1 7C9.60001 7.3 8.30001 8.19999 7.60001 9.59999L4.5 12.4L2.10001 10ZM19.3 11.5L16.4 14C15.7 15.5 14.4 16.6 12.7 16.9L15 19.5L12.6 21.9C17.1 21.6 20.8 18.2 21.7 13.9L19.3 11.5Z" fill="currentColor"></path><path d="M13.8 2.09998C18.2 2.99998 21.5 6.69998 21.8 11.2L19.4 8.79997L16.8 11C16.5 9.39998 15.5 8.09998 14 7.39998L11.4 4.39998L13.8 2.09998ZM12.3 19.4L9.69998 16.4C8.29998 15.7 7.3 14.4 7 12.8L4.39999 15.1L2 12.7C2.3 17.2 5.7 20.9 10 21.8L12.3 19.4Z" fill="currentColor"></path></svg></div>
+                                        <div className="activity-title">Enable Smart AI</div>
+                                    </div>
+                                    <div className="content-switch">
+                                        <span className="transition duration-200 ease-in-out"></span>
+                                    </div>
+                                    
+                                </summary>
+                                <div className="activity-content activity-content-box">
+                                    <label>
+                                        <div className="label-text mb-6 mt-25">What is your main organizational strategic goal?</div>
+                                    </label>
+                                    <AiDropDown className="listbox-droplist" btnClassName="btn btn-secondary btn-lg btn-max d-flex align-items-center justify-content-between" menuClassName="dropdown-primary shadow" dropDownButtonLabel="Select functional activities to assess"></AiDropDown>
                                 </div>
                             </details>
                         </div>

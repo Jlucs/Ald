@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 import Subheader from '../../components/Subheader/Primary'
 import Header from '../../components/Header/Header'
 import Dropdown from '../../components/Dropdown/SectorList'
-
+import Dropzone from '../../components/Dropzone/Dropzone'
 
 
 type Props = {
@@ -373,7 +373,8 @@ const Page: NextPageWithLayout = () => {
                         <h2 className="mb-20">Import assessment</h2>
                         {/* <input type="file" className="add-file"/>
                         <Link href="" className="btn btn-primary btn-file-upload btn-lg mt-40">Generate report</Link> */}
-                        <FileInputButton/>
+                        {/* <FileInputButton/> */}
+                        <Dropzone/>
                     </div>
                 </div>
             </div>

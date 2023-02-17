@@ -33,7 +33,7 @@ export default function Subheader({ children, className }: Props) {
                 <div className="menu-arrow"></div>
               </div>
             </Link>
-            <Link href="/on-demand" className={["menu-item item-accent", '', router.pathname == "/on-demand" ? "active" : ""].join(" ")}>
+            <Link href="/on-demand" className={["menu-item ", '', router.pathname == "/on-demand" ? "active" : ""].join(" ")}>
               <div className="menu-link">
                 <div className="menu-title">On demand</div>
                 <div className="menu-arrow"></div>

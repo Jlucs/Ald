@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import Subheader from '../../../../../components/Subheader/Primary'
 import Header from '../../../../../components/Header/Header'
 import IsoMethod from '../../../../../components/Dropdown/IsoMethod'
+import AiDropDown from '../../../../../components/Listbox/Ai'
 
 type Props = {
     value: number;
@@ -85,6 +86,26 @@ const Page: NextPageWithLayout = () => {
                             <div className="label-text mb-6">Assessment Method</div>
                         </label>
                         <IsoMethod className="" btnClassName="btn btn-secondary btn-lg btn-max d-flex align-items-center justify-content-between" menuClassName="dropdown-primary shadow" dropDownButtonLabel="General maturity"></IsoMethod>
+                        <div className="activities mt-40">
+                            <details>
+                                <summary className="d-flex justify-content-between">
+                                    <div className="d-flex">
+                                        <div className="mr-10 d-flex align-items-center"><svg className="" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M2.10001 10C3.00001 5.6 6.69998 2.3 11.2 2L8.79999 4.39999L11.1 7C9.60001 7.3 8.30001 8.19999 7.60001 9.59999L4.5 12.4L2.10001 10ZM19.3 11.5L16.4 14C15.7 15.5 14.4 16.6 12.7 16.9L15 19.5L12.6 21.9C17.1 21.6 20.8 18.2 21.7 13.9L19.3 11.5Z" fill="currentColor"></path><path d="M13.8 2.09998C18.2 2.99998 21.5 6.69998 21.8 11.2L19.4 8.79997L16.8 11C16.5 9.39998 15.5 8.09998 14 7.39998L11.4 4.39998L13.8 2.09998ZM12.3 19.4L9.69998 16.4C8.29998 15.7 7.3 14.4 7 12.8L4.39999 15.1L2 12.7C2.3 17.2 5.7 20.9 10 21.8L12.3 19.4Z" fill="currentColor"></path></svg></div>
+                                        <div className="activity-title">Enable Smart AI</div>
+                                    </div>
+                                    <div className="content-switch">
+                                        <span className="transition duration-200 ease-in-out"></span>
+                                    </div>
+                                    
+                                </summary>
+                                <div className="activity-content activity-content-box">
+                                    <label>
+                                        <div className="label-text mb-6 mt-25">What is your main organizational strategic goal?</div>
+                                    </label>
+                                    <AiDropDown className="listbox-droplist" btnClassName="btn btn-secondary btn-lg btn-max d-flex align-items-center justify-content-between" menuClassName="dropdown-primary shadow" dropDownButtonLabel="Select functional activities to assess"></AiDropDown>
+                                </div>
+                            </details>
+                        </div>
                         <div className="mt-20">
                             <Link href="/new/iso/20001-2018/general/quiz" className="btn btn-primary btn-lg fs-13"><div>Start assessment</div></Link>
                         </div>

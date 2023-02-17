@@ -437,7 +437,7 @@ const Page: NextPageWithLayout = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-4">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Content of Organization</div>
@@ -447,9 +447,7 @@ const Page: NextPageWithLayout = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
+          <div className="col-4">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Leadership</div>
@@ -459,9 +457,7 @@ const Page: NextPageWithLayout = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
+          <div className="col-4">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Planning</div>
@@ -473,7 +469,7 @@ const Page: NextPageWithLayout = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-4">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Support of Service Management System</div>
@@ -483,21 +479,17 @@ const Page: NextPageWithLayout = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
+          <div className="col-4">
             <div className="card card-primary shadow mb-20">
-            <div className="card-header header-compact">
-              <div className="header-title">Operation of Service Management System</div>
-            </div>
+              <div className="card-header header-compact">
+                <div className="header-title">Operation of Service Management System</div>
+              </div>
               <div className="card-body">
                 <Bar options={barOptions} data={barData5} />
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
+          <div className="col-4">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Performance evaluation</div>
@@ -509,7 +501,7 @@ const Page: NextPageWithLayout = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-4">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Improvement</div>

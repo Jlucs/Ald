@@ -520,6 +520,11 @@ hr.hr-16 {
     margin-top:20px;
 }
 
+.activities .activity-content.activity-content-box {
+    margin:12px;
+    border-top:1px solid #eaeaea;
+}
+
 .opacity-100 {
     opacity: 1
 }
@@ -2462,6 +2467,11 @@ form .input-icon::after {
     padding-right: 8px;
 }
 
+textarea.form-control {
+    height:140px;
+    resize: none;
+}
+
 form input[type="text"], form input[type="email"], form input[type="password"], form input[type="number"] {
     height: 44px;
     padding-left: 50px;
@@ -2567,6 +2577,49 @@ dd {
     border-right: 0;
     display: flex;
     align-items: center
+}
+
+/*
+|--------------------------------------------------------------------------
+| Dropzone
+|--------------------------------------------------------------------------
+*/
+
+.dropzone {
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.04);
+    height:400px;
+    width:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+.dropzone p {
+    position:relative;
+    z-index:2;
+}
+
+.dropzone-extra {
+    padding-top:20px;
+}
+
+.dropzone-icon {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:1;
+}
+
+.dropzone-icon svg {
+    width:120px;
+    height:120px;
 }
 
 /*
@@ -3589,6 +3642,39 @@ input.table-input:hover {
 }
 
 .switch-ball.enabled {
+    transform:translateX(26px);
+    background-color: #3699FF;
+}
+
+.content-switch {
+    height: 30px;
+    width: 57px;
+    border-radius: 9999px;
+    border-color: transparent;
+    position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+    padding:0;
+    margin:0;
+    display:flex;
+    align-items:center;
+    border:0;
+    cursor:pointer;
+    border:1px solid #eaeaea;
+}
+
+.content-switch span {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
+    background:#fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 9999px;
+    transform:translateX(0);
+    
+}
+
+details[open] .content-switch span {
     transform:translateX(26px);
     background-color: #3699FF;
 }

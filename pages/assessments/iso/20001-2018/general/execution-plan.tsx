@@ -375,7 +375,7 @@ const Page: NextPageWithLayout = (props) => {
                       </div>
                       <div className="grid-cell" style={{flexBasis: "140px"}}>
                         <div className="cell-inner">
-                          <div className="cell-title">Date</div>
+                          <div className="cell-title">Deadline</div>
                         </div>
                       </div>
                       <div className="grid-cell" style={{flexBasis: "140px"}}>
@@ -482,7 +482,7 @@ const Page: NextPageWithLayout = (props) => {
                       </div>
                       <div className="grid-cell" style={{flexBasis: "140px"}}>
                         <div className="cell-inner">
-                          <div className="cell-title">Date</div>
+                          <div className="cell-title">Deadline</div>
                         </div>
                       </div>
                       <div className="grid-cell" style={{flexBasis: "140px"}}>
@@ -588,7 +588,7 @@ const Page: NextPageWithLayout = (props) => {
                       </div>
                       <div className="grid-cell" style={{flexBasis: "140px"}}>
                         <div className="cell-inner">
-                          <div className="cell-title">Date</div>
+                          <div className="cell-title">Deadline</div>
                         </div>
                       </div>
                       <div className="grid-cell" style={{flexBasis: "140px"}}>

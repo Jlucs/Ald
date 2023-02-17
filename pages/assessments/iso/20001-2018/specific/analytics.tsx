@@ -278,7 +278,7 @@ const Page: NextPageWithLayout = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-6">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Identify I&T services.</div>
@@ -288,9 +288,7 @@ const Page: NextPageWithLayout = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
+          <div className="col-6">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Catalog I&T-enabled services.</div>
@@ -302,7 +300,7 @@ const Page: NextPageWithLayout = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-6">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Define and prepare service agreements.</div>
@@ -312,9 +310,7 @@ const Page: NextPageWithLayout = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
+          <div className="col-6">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Monitor and report service levels.</div>
@@ -326,7 +322,7 @@ const Page: NextPageWithLayout = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-6">
             <div className="card card-primary shadow mb-20">
             <div className="card-header header-compact">
               <div className="header-title">Review service agreements and contracts.</div>

@@ -60,7 +60,7 @@ const Page: NextPageWithLayout = () => {
             <div>
               <h1>ISO 20001-2018 </h1>
               <div className="d-flex align-items-center flex-row">
-                <div><p className="text-wrapper">Specific functional activities Assessment</p></div>
+                <div><p className="text-wrapper">Capabilities improvement assessment</p></div>
                 <div className="text-wrapper mr-8 ml-8">·</div>
                 <div className="text-wrapper fc-link fw-500">Level 3: Established process</div>
               </div>
