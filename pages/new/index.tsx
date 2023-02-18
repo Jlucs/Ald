@@ -374,6 +374,7 @@ const Page: NextPageWithLayout = () => {
                         {/* <input type="file" className="add-file"/>
                         <Link href="" className="btn btn-primary btn-file-upload btn-lg mt-40">Generate report</Link> */}
                         {/* <FileInputButton/> */}
+                        {/* @ts-ignore */}
                         <Dropzone/>
                     </div>
                 </div>
