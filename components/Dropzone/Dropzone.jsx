@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { useDropzone } from "React-dropzone";
+import { useDropzone } from "react-dropzone";
+
+
 
 export default function Dropzone({ open }) {
   const { getRootProps, getInputProps, acceptedFiles } =
