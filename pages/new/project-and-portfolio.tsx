@@ -7,6 +7,7 @@ import { useEffect } from 'react'
 import Subheader from '../../components/Subheader/Primary'
 import Header from '../../components/Header/Header'
 import Dropdown from '../../components/Dropdown/SectorList'
+import Dropzone from '../../components/Dropzone/Dropzone'
 
 type Props = {
     value: number;
@@ -96,7 +97,8 @@ const Page: NextPageWithLayout = () => {
                 <div className="card card-primary card-shadow">
                     <div className="card-body">
                         <h2 className="mb-20">Import assessment</h2>
-                        <FileInputButton/>
+                        {/* @ts-ignore */}
+                        <Dropzone/>
                     </div>
                 </div>
             </div>
