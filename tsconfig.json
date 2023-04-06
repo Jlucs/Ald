@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Disclosure/ExpandRow.tsx", "components/Subheader/Iso2.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Disclosure/ExpandRow.tsx", "components/Subheader/Iso2.tsx", "components/Dropzone/Dropzone.jsx"],
   "exclude": ["node_modules"]
 }
